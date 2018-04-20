@@ -3824,7 +3824,7 @@ body.is-loading #intro:not(.hidden) + #header + #nav {
 #footer input[type="button"]:hover,
 #footer button:hover,
 #footer .button:hover {
-    box-shadow: inset 0 0 0 2px #18bfef;
+    box-shadow: inset 0 0 0 2px #ff9999;
     color: #ff9999 !important;
 }
 
@@ -4213,7 +4213,7 @@ body.is-loading #intro:not(.hidden) + #header + #nav {
 
 #copyright a:hover {
     border-bottom-color: transparent;
-    color: #18bfef !important;
+    color: #ff9999 !important;
 }
 
 #copyright strong, #copyright b {
