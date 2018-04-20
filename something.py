@@ -20,7 +20,7 @@ def root_get():
 @app.route("/github-feed", methods=["POST"])
 def gitlab_feed():
     print("[NEW EVENT]")
-    call(["bash", "/home/ubuntu/youngyookim/something.sh"])
+    call(["bash", "/home/ubuntu/something.sh"])
     return "OK"
 
 
