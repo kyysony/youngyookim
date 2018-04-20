@@ -1822,7 +1822,7 @@ a {
 
 a:hover {
     border-bottom-color: transparent;
-    color: #18bfef !important;
+    color: #ff9999 !important;
 }
 
 strong, b {
@@ -2030,8 +2030,8 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
 .button:hover {
-    box-shadow: inset 0 0 0 2px #18bfef;
-    color: #18bfef !important;
+    box-shadow: inset 0 0 0 2px #ff9999;
+    color: #ff9999 !important;
 }
 
 input[type="submit"].special,
@@ -2049,7 +2049,7 @@ input[type="reset"].special:hover,
 input[type="button"].special:hover,
 button.special:hover,
 .button.special:hover {
-    background-color: #18bfef;
+    background-color: #ff9999;
 }
 
 /* Form */
@@ -2335,7 +2335,7 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 select:focus,
 textarea:focus {
-    border-color: #18bfef;
+    border-color: #ff9999;
 }
 
 select option {
@@ -2366,7 +2366,7 @@ input[type="radio"]:checked + label:before {
 
 input[type="checkbox"]:focus + label:before,
 input[type="radio"]:focus + label:before {
-    border-color: #18bfef;
+    border-color: #ff9999;
 }
 
 ::-webkit-input-placeholder {
@@ -2693,7 +2693,7 @@ ul.divided li {
 }
 
 ul.icons li a.icon:hover:before {
-    color: #18bfef;
+    color: #ff9999;
 }
 
 ul.icons.alt li .icon:before {
@@ -2701,7 +2701,7 @@ ul.icons.alt li .icon:before {
 }
 
 ul.icons.alt li a.icon:hover:before {
-    box-shadow: inset 0 0 0 2px #18bfef;
+    box-shadow: inset 0 0 0 2px #ff9999;
 }
 
 /* Section/Article */
@@ -2992,13 +2992,13 @@ table.alt tbody tr td {
 }
 
 .pagination a:hover {
-    color: #18bfef !important;
-    border-color: #18bfef;
+    color: #ff9999 !important;
+    border-color: #ff9999;
     z-index: 1;
 }
 
 .pagination a:hover + a, .pagination a:hover + span {
-    border-left-color: #18bfef;
+    border-left-color: #ff9999;
 }
 
 .pagination a.active {
@@ -3121,7 +3121,7 @@ body.is-loading #wrapper.fade-in:before {
 
 #intro a:hover {
     border-bottom-color: transparent;
-    color: #18bfef !important;
+    color: #ff9999 !important;
 }
 
 #intro strong, #intro b {
@@ -3160,8 +3160,8 @@ body.is-loading #wrapper.fade-in:before {
 #intro input[type="button"]:hover,
 #intro button:hover,
 #intro .button:hover {
-    box-shadow: inset 0 0 0 2px #18bfef;
-    color: #18bfef !important;
+    box-shadow: inset 0 0 0 2px #ff9999;
+    color: #ff9999 !important;
 }
 
 #intro input[type="submit"].special,
@@ -3179,7 +3179,7 @@ body.is-loading #wrapper.fade-in:before {
 #intro input[type="button"].special:hover,
 #intro button.special:hover,
 #intro .button.special:hover {
-    background-color: #18bfef;
+    background-color: #ff9999;
 }
 
 #intro h1 {
@@ -3337,7 +3337,7 @@ body.is-loading #intro:not(.hidden) + #header + #nav {
 
 #header a:hover {
     border-bottom-color: transparent;
-    color: #18bfef !important;
+    color: #ff9999 !important;
 }
 
 #header strong, #header b {
@@ -3384,8 +3384,8 @@ body.is-loading #intro:not(.hidden) + #header + #nav {
 }
 
 #header .logo:hover {
-    border-color: #18bfef !important;
-    color: #18bfef !important;
+    border-color: #ff9999 !important;
+    color: #ff9999 !important;
 }
 
 @media screen and (max-width: 980px) {
@@ -3439,7 +3439,7 @@ body.is-loading #intro:not(.hidden) + #header + #nav {
 }
 
 #nav ul.icons li a.icon:hover:before {
-    color: #18bfef;
+    color: #ff9999;
 }
 
 #nav ul.icons.alt li .icon:before {
@@ -3447,7 +3447,7 @@ body.is-loading #intro:not(.hidden) + #header + #nav {
 }
 
 #nav ul.icons.alt li a.icon:hover:before {
-    box-shadow: inset 0 0 0 2px #18bfef;
+    box-shadow: inset 0 0 0 2px #ff9999;
 }
 
 #nav input, #nav select, #nav textarea {
@@ -3461,7 +3461,7 @@ body.is-loading #intro:not(.hidden) + #header + #nav {
 
 #nav a:hover {
     border-bottom-color: transparent;
-    color: #18bfef !important;
+    color: #ff9999 !important;
 }
 
 #nav strong, #nav b {
@@ -3537,7 +3537,7 @@ body.is-loading #intro:not(.hidden) + #header + #nav {
 }
 
 #nav ul.links li.active a:hover {
-    color: #18bfef !important;
+    color: #ff9999 !important;
 }
 
 #nav ul.icons {
@@ -3781,7 +3781,7 @@ body.is-loading #intro:not(.hidden) + #header + #nav {
 
 #footer a:hover {
     border-bottom-color: transparent;
-    color: #18bfef !important;
+    color: #ff9999 !important;
 }
 
 #footer strong, #footer b {
@@ -3825,7 +3825,7 @@ body.is-loading #intro:not(.hidden) + #header + #nav {
 #footer button:hover,
 #footer .button:hover {
     box-shadow: inset 0 0 0 2px #18bfef;
-    color: #18bfef !important;
+    color: #ff9999 !important;
 }
 
 #footer input[type="submit"].special,
@@ -3843,7 +3843,7 @@ body.is-loading #intro:not(.hidden) + #header + #nav {
 #footer input[type="button"].special:hover,
 #footer button.special:hover,
 #footer .button.special:hover {
-    background-color: #18bfef;
+    background-color: #ff9999;
 }
 
 #footer label {
@@ -3863,7 +3863,7 @@ body.is-loading #intro:not(.hidden) + #header + #nav {
 #footer input[type="email"]:focus,
 #footer select:focus,
 #footer textarea:focus {
-    border-color: #18bfef;
+    border-color: #ff9999;
 }
 
 #footer select option {
@@ -3894,7 +3894,7 @@ body.is-loading #intro:not(.hidden) + #header + #nav {
 
 #footer input[type="checkbox"]:focus + label:before,
 #footer input[type="radio"]:focus + label:before {
-    border-color: #18bfef;
+    border-color: #ff9999;
 }
 
 #footer ::-webkit-input-placeholder {
@@ -3922,7 +3922,7 @@ body.is-loading #intro:not(.hidden) + #header + #nav {
 }
 
 #footer ul.icons li a.icon:hover:before {
-    color: #18bfef;
+    color: #ff9999;
 }
 
 #footer ul.icons.alt li .icon:before {
@@ -3930,7 +3930,7 @@ body.is-loading #intro:not(.hidden) + #header + #nav {
 }
 
 #footer ul.icons.alt li a.icon:hover:before {
-    box-shadow: inset 0 0 0 2px #18bfef;
+    box-shadow: inset 0 0 0 2px #ff9999;
 }
 
 #footer header.major .date:before, #footer header.major .date:after {
@@ -3970,13 +3970,13 @@ body.is-loading #intro:not(.hidden) + #header + #nav {
 }
 
 #footer .pagination a:hover {
-    color: #18bfef !important;
-    border-color: #18bfef;
+    color: #ff9999 !important;
+    border-color: #ff9999;
     z-index: 1;
 }
 
 #footer .pagination a:hover + a, #footer .pagination a:hover + span {
-    border-left-color: #18bfef;
+    border-left-color: #ff9999;
 }
 
 #footer .pagination a.active {
