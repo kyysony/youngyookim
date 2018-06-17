@@ -4481,3 +4481,28 @@ body.is-loading #intro:not(.hidden) + #header + #nav {
     }
 
 }
+
+.element,
+.outer-container {
+  width: 950px;
+  height: 720px;
+    position: center
+}
+.outer-container {
+  border: 0px solid pink;
+  position: relative;
+  overflow: hidden;
+}
+.inner-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.inner-container::-webkit-scrollbar {
+  display: none;
+}
+.element::-webkit-scrollbar { width: 0 !important }
+.element { -ms-overflow-style: none; }
+.element { overflow: -moz-scrollbars-none; }
