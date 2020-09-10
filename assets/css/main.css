@@ -3028,10 +3028,10 @@ table.alt tbody tr td {
     width: 100%;
     height: 100%;
     background-color: #212931;
-    background-image: url("../../images/backgrounds/bgyy.jpg"), linear-gradient(0deg, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url("../../images/backgrounds/bgyy.jpg");
-    background-size: auto,auto,100% auto;
-    background-position: center, center, top center;
-    background-repeat: no-repeat,no-repeat,no-repeat;
+    background: url("../../images/backgrounds/bg.jpg"), linear-gradient(0deg, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url("../../images/backgrounds/bg.jpg");
+    background-size: auto,auto, contain;
+    background-position: left, top, top center;
+    background-repeat: no-repeat;
     background-attachment: scroll,scroll,scroll;
     /*z-index: -1;*/
 }
