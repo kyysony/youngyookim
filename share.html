@@ -42,6 +42,15 @@
     </noscript>
 </head>
 
+<script type="module">
+    // Find the latest version by visiting https://unpkg.com/three. The URL will
+    // redirect to the newest stable release.
+    import * as THREE from 'https://unpkg.com/three@latest/build/three.module.js';
+
+    const scene = new THREE.Scene();
+
+</script>
+
 <body class="is-loading">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106192697-1"></script>
@@ -54,6 +63,7 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-106192697-1');
+
     </script>
     <!-- Wrapper -->
     <div id="wrapper">
@@ -165,4 +175,6 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
 
-</body></html>
+</body>
+
+</html>
